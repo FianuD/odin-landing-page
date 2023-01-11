@@ -1,178 +1,177 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-   font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-hero-section {
-    background-color: #1F2937;
-    color: #E5E7EB;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
 
 nav {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .navbar {
-    display:flex;
-    justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-links {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links li a {
-    display: block;
-    color: #E5E7EB;
-    font-size: 18px;
-    text-decoration: none;
-    text-align: center;
-    padding: 16px;
+  display: block;
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px;
 }
 
 .nav-links li a:hover {
-    font-size: 19px;
-    padding: 15px;
-    background-color: #1b232e;
+  font-size: 19px;
+  padding: 15px;
+  background-color: #1b232e;
 }
 
 /* Hero section */
 
 .hero {
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  justify-content: space-between;
 }
 
 .right-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
 }
 
 .left-hero {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: left;
-    margin-left: 160px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: left;
+  margin-left: 160px;
 }
 
 .left-hero h1 {
-    font-size: 48px;
-    font-weight: 700;
-    color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
 }
 
 img {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .sign-up-hero {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    font-size: 1.1em;
-    font-weight: 700;
-    margin-top: 10px;
-    padding: 10px 28px;
-    border-radius: 6px;
-    border: none;
-    width: 150px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-top: 10px;
+  padding: 10px 28px;
+  border-radius: 6px;
+  border: none;
+  width: 150px;
 }
 
 /* second section */
 
 .second-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .p-second {
-    text-align: center;
-    font-size: 18px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .second-section h1 {
-    font-size: 36px;
-    font-weight: 700;
-    color: 1F3937;
-    text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: 1F3937;
+  text-align: center;
 }
 
 .row-of-blue-box {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 100%;
-    margin: 100px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 100px;
+  align-items: center;
 }
 
 .blue-box {
-    border: 2px solid #3882F6;
-    width: 170px;
-    height: 170px;
-    border-radius: 10px;
+  border: 2px solid #3882f6;
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
 }
 
 .p-second {
-    text-align: center;
-    font-size: 18px;
+  text-align: center;
+  font-size: 18px;
 }
 
 /* quote section */
 .quote-area {
-    background-color: #E5E7Eb;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 blockquote {
-    margin: 0;
+  margin: 0;
 }
 
 blockquote p {
-    padding: 15px;
-    border-radius: 5px;
-    font-size: 26px;
-    font-style: italic;
-    font-weight: 300;
-    color: #1F3937;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f3937;
 }
 
 blockquote p::before {
-    content: '\201C';
+  content: "\201C";
 }
 
 blockquote p::after {
-    content: '\201D';
+  content: "\201D";
 }
 
 figcaption {
-    text-align: right;
+  text-align: right;
 }
 
 /* Footer Section */
 
 footer {
-    background-color: #1F2937;
+  background-color: #1f2937;
 }
 footer p {
-    padding: 20px;
-    text-align: center;
-    color: #E5E7EB;
+  padding: 20px;
+  text-align: center;
+  color: #e5e7eb;
 }
