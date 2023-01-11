@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+nav {
+    width: 80%; 
+    left: 10%; 
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
