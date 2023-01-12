@@ -199,6 +199,25 @@ figcaption {
   color: #e5e7eb;
 }
 
+.right-blue {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btn-last-div {
+  background-color: #f9faf8;
+  color:  #3882f6;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-right: 100px;
+  padding: 10px 28px;
+  border-radius: 6px;
+  border: none;
+  width: 150px;
+}
+
 /* Footer Section */
 
 footer {
